@@ -2,3 +2,19 @@ baseURL = 'https://kumaran-14.github.io/blog'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'paperesque'
+
+[[params.menu]]
+  name = "blog"
+  url = "posts/"
+
+[[params.menu]]
+  name = "tags"
+  url = "tags/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+
+[[params.menu]]
+  name = "contact"
+  url = "contact/"
