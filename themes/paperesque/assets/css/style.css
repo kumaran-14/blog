@@ -6,14 +6,18 @@ body {
 
 code {
   padding: 2px 4px;
-  font-size: 90%;
   background-color: #eeeeee;
   hyphens: none;
   /* reset changes from <p> */
   -webkit-hyphens: none;
   -ms-hyphens: none;
-  word-wrap: break-word;
   /* border-radius: 4px; */
+}
+
+pre code {
+  word-wrap: break-word;
+  text-wrap: pretty;
+  word-break: break-all;
 }
 
 /* Reset these values when there's code inside a pre. Pre handles the styling then.*/
@@ -49,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', serif;
+  font-family: lora, "PT Serif", serif;
 }
 
 h1#title {
@@ -58,12 +62,18 @@ h1#title {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: "PT Serif", serif;
 }
 
 .content-container {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.content-container-narrow {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
 }
 
 .content-container-narrow-pad {
@@ -80,9 +90,8 @@ body {
 
 @media(min-width: 720px) {
 
-  /* Make everything 10% smaller! */
   html {
-    font-size: 14.4px;
+    font-size: 16px;
   }
 
   .content-container {
@@ -90,7 +99,7 @@ body {
     Images are scaled in the fitfigure shortcode with an assumption that the
     page is 652px wide. If you change this value, remeasure and change the value
     there too. */
-    width: 45rem;
+    width: 50rem;
     padding-left: 2em;
     padding-right: 2em;
     margin: 0 auto;
@@ -99,7 +108,7 @@ body {
   .content-container-narrow-pad {
     padding-left: 0.5em;
     padding-right: 0.5em;
-    width: 45rem;
+    width: 50rem;
     margin: 0 auto;
   }
 
@@ -183,9 +192,23 @@ body.sticky-nav .navbar {
   padding: 0.5em 1em;
 }
 
-nav a,
-nav a:hover,
-nav a:visited {
+/* Ensures {{< toc >}} shortcodes are styled properly */
+#TableOfContents nav a,
+#TableOfContents nav a:hover,
+#TableOfContents nav a:visited {
+  color: #007bff;
+}
+
+/* For the header navbar */
+.navbar nav a,
+.navbar nav a:hover,
+.navbar nav a:visited {
+  color: white;
+}
+
+.bottom-links nav a,
+.bottom-links nav a:hover,
+.bottom-links nav a:visited {
   color: white;
 }
 
@@ -405,9 +428,15 @@ ul.right-links li {
   margin-right: 1em;
 }
 
-@media(min-width: 440px) {
+@media(min-width: 586px) {
   ul.right-links {
     display: block;
+  }
+}
+
+@media(max: 585px) {
+  ul.right-links {
+    display: none;
   }
 }
 
@@ -517,9 +546,9 @@ h6:first-child {
   background-color: transparent;
   line-height: 1.5;
   border-radius: .25rem;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: "PT Serif", serif;
   padding: .25rem .75rem;
-  font-size: .875rem;
+  font-size: 1rem;
 
   color: white;
   box-shadow: 0 5px 5px -5px #777777;
@@ -675,7 +704,7 @@ article table {
 
 article table thead th {
   padding-bottom: 0.5em;
-  font-family: 'Lora', serif;
+  font-family: "PT Serif", serif;
 }
 
 article table tbody tr:first-child td {
@@ -693,6 +722,26 @@ article table th {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   vertical-align: top;
+}
+
+.sidebarblogroll {
+  margin-top: 1.5em;
+}
+
+.sidebarblogroll ul {
+  margin-top: 1em;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.sidebarblogroll li {
+  margin-bottom: 1em;
+}
+
+.sidebar-large {
+  font-size: 1.5em;
+  padding-left: 10px;
+  list-style: none;
 }
 
 .sidepull-side {
@@ -715,9 +764,90 @@ article table th {
     top: 3em;
     margin-left: -18em /* width + a margin */;
     float: left;
+
   }
 
   .sidepull-not-when-sidebar-shown {
     display: none;
   }
+}
+
+/* Remove hover focus from text inputs */
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* Webmention.css from PlaidWeb */
+#webmentions {
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    line-height: 1.2em;
+}
+
+#webmentions .comments {
+    max-height: 20em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 80%;
+}
+
+#webmentions h2 {
+    padding: 2px;
+}
+
+#webmentions .reacts img {
+    margin: 3px -1ex 1px 0;
+}
+
+#webmentions img.missing {
+    background: white;
+    border: dashed black 1px;
+}
+
+#webmentions ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#webmentions li {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+#webmentions a.reaction {
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px white;
+    margin-right: 0;
+    letter-spacing: -1ex;
+    margin-right: 1ex;
+}
+
+#webmentions a.reaction img {
+    max-height: 1.3em;
+    width: auto;
+    margin-right: -1ex;
+    border-radius: 25%;
+}
+
+#webmentions a.reaction sub {
+    font-size: 50%;
+}
+
+#webmentions .comments li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#webmentions .comments li .text {
+    color: #555;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#webmentions .comments li .name {
+    color: #111;
 }

@@ -1,20 +1,27 @@
 baseURL = 'https://kumaran-14.github.io/blog'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Kumaran's Blog"
 theme = 'paperesque'
 
-[[params.menu]]
-  name = "blog"
-  url = "posts/"
+[params]
+  math = true
 
-[[params.menu]]
+[[params.topmenu]]
+  name = "Posts"
+  url = "posts/"
+[[params.topmenu]]
+  name = "About"
+  url = "about/"
+[[params.topmenu]]
   name = "tags"
   url = "tags/"
+[[params.topmenu]]
+  name = "rss"
+  url = "rss/"
 
-[[params.menu]]
-  name = "about"
-  url = "about/"
+[markup.goldmark.extensions.passthrough]
+  enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+  inline = [['$', '$'], ['\(', '\)']]
+  block = [['$$', '$$'], ['\[', '\]']]
 
-[[params.menu]]
-  name = "contact"
-  url = "contact/"

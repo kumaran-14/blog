@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Kumaran&#39;s Blog</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Kumaran&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Jan 2025 16:49:59 -0600</lastBuildDate>
@@ -13,7 +13,21 @@
       <link>http://localhost:1313/blog/docs/test/</link>
       <pubDate>Sat, 11 Jan 2025 16:49:59 -0600</pubDate>
       <guid>http://localhost:1313/blog/docs/test/</guid>
-      <description></description>
+      <description>&lt;p&gt;Change of config file detected, rebuilding site (#1).&#xA;2025-01-12 13:26:09.248 -0600&#xA;ERROR Couldn&amp;rsquo;t figure out what to render for the homepage. Either:&#xA;(1) add [[params.menu]] entries in your config.toml&#xA;(2) create a top-level _index.md with content&#xA;(3) create a top-level _index.md with a &amp;ldquo;display_section&amp;rdquo; key in the front-matter.&#xA;ERROR logged 1 error(s)&#xA;Web Server is available at http://localhost:1313/blog/ (bind address 127.0.0.1)&#xA;Rebuilt in 25 ms&lt;/p&gt;&#xA;&lt;p&gt;Change of config file detected, rebuilding site (#2).&#xA;2025-01-12 13:27:11.748 -0600&#xA;Web Server is available at http://localhost:1313/blog/ (bind address 127.0.0.1)&#xA;Rebuilt in 33 ms&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>http://localhost:1313/blog/posts/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hi 👋</title>
+      <link>http://localhost:1313/blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;about.jpg&#34; alt=&#34;Kumaran Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’m Kumaran Gowrisankar, though many know me by my nickname, Gokul.&lt;/p&gt;&#xA;&lt;p&gt;I have a keen interest in learning about distributed computing techonologies. I&amp;rsquo;m a graduate student at Texas A&amp;amp;M University, pursuing a Master’s in Computer Science. I previously worked as a software engineer at &lt;a href=&#34;https://www.sliceit.com/&#34;&gt;slice&lt;/a&gt;, building payment systems. Before that, I graduated from &lt;a href=&#34;https://nitt.edu/&#34;&gt;NIT-Trichy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;&#xA;&lt;p&gt;I enjoy outdoor activities. I&amp;rsquo;m always on the hunt for amazing trails to hike. Let me know if you want a hiking partner. Recently,  I&amp;rsquo;ve taken up running. I also enjoy hitting the gym regularly.&#xA;I enjoy watching FC Barcelona win. Naturally, Leo Messi is my GOAT.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
