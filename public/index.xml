@@ -16,11 +16,11 @@
       <description>&lt;p&gt;Change of config file detected, rebuilding site (#1).&#xA;2025-01-12 13:26:09.248 -0600&#xA;ERROR Couldn&amp;rsquo;t figure out what to render for the homepage. Either:&#xA;(1) add [[params.menu]] entries in your config.toml&#xA;(2) create a top-level _index.md with content&#xA;(3) create a top-level _index.md with a &amp;ldquo;display_section&amp;rdquo; key in the front-matter.&#xA;ERROR logged 1 error(s)&#xA;Web Server is available at http://localhost:1313/blog/ (bind address 127.0.0.1)&#xA;Rebuilt in 25 ms&lt;/p&gt;&#xA;&lt;p&gt;Change of config file detected, rebuilding site (#2).&#xA;2025-01-12 13:27:11.748 -0600&#xA;Web Server is available at http://localhost:1313/blog/ (bind address 127.0.0.1)&#xA;Rebuilt in 33 ms&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/blog/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+      <title>How I manage my Dotfiles</title>
+      <link>http://localhost:1313/blog/posts/2025/dotfiles/</link>
+      <pubDate>Sun, 05 Jan 2025 19:23:50 -0600</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025/dotfiles/</guid>
+      <description>&lt;p&gt;This is mostly a blog post for me to look back and understand how I&amp;rsquo;ve setup and configured my dotfiles and other applications that I use.&lt;/p&gt;&#xA;&lt;p&gt;This is how my shell currently looks like. If you spend considerable amount of time in the shell, it usually is worth to make it look nice.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://asciinema.org/a/niycA8U7FqciflhJSjx3B7xIJ&#34;&gt;&lt;img src=&#34;https://asciinema.org/a/niycA8U7FqciflhJSjx3B7xIJ.svg&#34; alt=&#34;Watch the recording&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;OS=Linux SHELL=zsh TERM=xterm-256color&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;zsh-and-prezto-reference&#34;&gt;ZSH and Prezto Reference&lt;/h3&gt;&#xA;&lt;p&gt;Before we get into the setup, let&amp;rsquo;s try to understand the various shell related dotfiles that are in use.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi 👋</title>
