@@ -3,7 +3,7 @@ display_section = "posts"
 +++
 
 {{< figure
-  src="about_4.jpg"
+  src="/blog/images/about_4.jpg"
   class="left-lane-image"
   height="200px"
 >}}
