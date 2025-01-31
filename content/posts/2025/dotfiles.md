@@ -77,8 +77,9 @@ I can't remember shorcuts for different applications over the long term. So I pr
 
 #### Grub Screen
 I customized my grub bootloader to have this background image. Yes, I'm a Messi fan.
-![Grub Background](/blog/images/grub-screenshot.png)
+![Grub Background](/blog/images/grub-screenshot.png?height=10px)
 
 
 ### Inspiration
 [Holman's dotfiles.](https://github.com/holman/dotfiles)
+
