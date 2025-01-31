@@ -4,7 +4,7 @@ title = 'Hi 👋'
 +++
 
 {{< figure
-  src="about_4.jpg"
+  src="/blog/images/about_4.jpg"
   caption="Embracing the Texan in me @ Fort Worth Stockyards"
   class="ma0 w-75"
   height="500px"
