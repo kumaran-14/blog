@@ -13,6 +13,12 @@ theme = 'paperesque'
   name = "About"
   url = "about/"
 [[params.topmenu]]
+  name = "Resume"
+  url = "resume/"
+[[params.topmenu]]
+  name = "Contact"
+  url = "contact/"
+[[params.topmenu]]
   name = "tags"
   url = "tags/"
 [[params.topmenu]]
@@ -25,3 +31,5 @@ theme = 'paperesque'
   inline = [['$', '$'], ['\(', '\)']]
   block = [['$$', '$$'], ['\[', '\]']]
 
+[markup.goldmark.renderer]
+unsafe= true

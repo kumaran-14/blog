@@ -851,3 +851,7 @@ textarea:focus, input:focus{
 #webmentions .comments li .name {
     color: #111;
 }
+
+.left-lane-image {
+  margin:1em 1em 1em 0em;
+}
