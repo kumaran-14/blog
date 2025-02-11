@@ -63,6 +63,8 @@ simulations with Pixi.Js.
 
 {{< /details >}}
 
+{{< line_break >}}
+
 #### [Scholarship Portal - NIT-Trichy ](https://www.linkedin.com/in/kumaran-gowrisankar-53969616a/)
 {{< details Hightlights>}} 
 * Designed and implemented a scholarship portal to simplify application management for students and streamline
@@ -72,10 +74,10 @@ review and approval for administrators.
 {{< /details >}}
 {{< /p_indent >}}
 ### Open-Source
-I donate code, not just complaints.
+I submit PRs, not just complaints.
 * [Xterm.js](https://github.com/xtermjs/xterm.js/commits?author=kumaran-14) - The integrated terminal of VSCode. Yes, my code is used in an app used by millions of developers every day, very scary!
  
-### Educatiwon
+### Education
 * Master of Computer Science @ Texas A&M University '26
 * Bachelor of Technology, National Institute of Technology, Trichy '21
 
